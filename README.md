@@ -20,4 +20,4 @@ Holds the state that represents the in-memory grid of true/false for lights-on/o
 
 ### Cell
 
-Renders a __<div>__, where the CSS classes will indicate whether this cell is lit or unlit. This is what the user clicks on. This calls a function received from the board to update the state.
+Renders a __div__, where the CSS classes will indicate whether this cell is lit or unlit. This is what the user clicks on. This calls a function received from the board to update the state.
