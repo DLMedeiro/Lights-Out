@@ -4,7 +4,7 @@ Lights Out is a logic/puzzle game, played on a gird of individual lights, which 
 
 You can click on a cell to toggle that light — but it also toggles the light above it, to the left of it, to the right of it, and below it. (Cells on an edge or in the corner won’t flip as many lights, since they are missing some neighbors).
 
-When the game is won, the board should not be shown, and a “You Won” message will appear.
+When the game is won, the board should be all black, and a “You Won” message will appear.
 
 Check it out at: 
 
