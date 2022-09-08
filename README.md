@@ -7,3 +7,17 @@ You can click on a cell to toggle that light — but it also toggles the light a
 When the game is won, the board should not be shown, and a “You Won” message will appear.
 
 Check it out at: 
+
+## Component Design
+
+### App
+
+Renders the Board component.
+
+### Board
+
+Holds the state that represents the in-memory grid of true/false for lights-on/off. This component holds the state for the board and also where the setState calls and functions are located.
+
+### Cell
+
+Renders a __<div>__, where the CSS classes will indicate whether this cell is lit or unlit. This is what the user clicks on. This calls a function received from the board to update the state.
