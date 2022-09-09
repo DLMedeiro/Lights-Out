@@ -60,7 +60,7 @@ function Board({ nrows, ncols, chanceLightStartsOn }) {
       setWinner(() => {
         for (let y = 0; y < nrows; y++) {
           for (let x = 0; x < ncols; x++) {
-            if (boardCopy[y][x] == true) {
+            if (boardCopy[y][x] === true) {
               test.push(1);
             }
           }
@@ -118,7 +118,7 @@ function Board({ nrows, ncols, chanceLightStartsOn }) {
 
   if (winner) {
     return (
-      <div>
+      <div className="winner">
         <h2>Winner</h2>
       </div>
     );
