@@ -3,13 +3,22 @@
   width: 100px;
   background-color: black;
   cursor: pointer;
-  border: transparent solid 2px;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .Cell-lit {
   background-image: url("./assets/lightbulb.jpg");
   background-size: cover;
   background-position: center;
-  border: rgb(192, 148, 4) solid 2px;
-  transition: all .5s;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
 }

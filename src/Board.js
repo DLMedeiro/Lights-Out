@@ -65,7 +65,7 @@ function Board({ nrows, ncols, chanceLightStartsOn }) {
             }
           }
         }
-        if (test.length < 1) {
+        if (test.length < 2) {
           return true;
         }
       });

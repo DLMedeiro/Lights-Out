@@ -1,3 +1,24 @@
 .App {
   text-align: center;
+  /* height: 100vh; */
+
+  color: white;
+}
+
+.App h1 {
+  padding: 20px;
+}
+
+.App .instructions {
+  background-color: rgba(0, 0, 0, 0.76);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.App .instructions p, h3 {
+  padding-bottom: 15px;
+}
+
+.App h1 {
+  background-color: rgba(0, 0, 0, 0.774);
 }
