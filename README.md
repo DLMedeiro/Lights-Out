@@ -7,6 +7,7 @@ You can click on a cell to toggle that light — but it also toggles the light a
 When the game is won, the board should be all black, and a “You Won” message will appear.
 
 Check it out at: 
+https://dlmedeiro.github.io/Lights-Out/
 
 ## Component Design
 
