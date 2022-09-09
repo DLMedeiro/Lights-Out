@@ -1,22 +1,15 @@
 {
   "files": {
-    "main.css": "/DLMedeiro/Lights-Out/static/css/main.1c27afbb.chunk.css",
-    "main.js": "/DLMedeiro/Lights-Out/static/js/main.e473fc9e.chunk.js",
-    "main.js.map": "/DLMedeiro/Lights-Out/static/js/main.e473fc9e.chunk.js.map",
-    "runtime-main.js": "/DLMedeiro/Lights-Out/static/js/runtime-main.dece45f2.js",
-    "runtime-main.js.map": "/DLMedeiro/Lights-Out/static/js/runtime-main.dece45f2.js.map",
-    "static/js/2.1d7a373d.chunk.js": "/DLMedeiro/Lights-Out/static/js/2.1d7a373d.chunk.js",
-    "static/js/2.1d7a373d.chunk.js.map": "/DLMedeiro/Lights-Out/static/js/2.1d7a373d.chunk.js.map",
+    "main.css": "/DLMedeiro/Lights-Out/static/css/main.3695dd95.css",
+    "main.js": "/DLMedeiro/Lights-Out/static/js/main.87661185.js",
+    "static/media/batsBackground.jpg": "/DLMedeiro/Lights-Out/static/media/batsBackground.645bc5f60c1e934c7b76.jpg",
+    "static/media/lightbulb.jpg": "/DLMedeiro/Lights-Out/static/media/lightbulb.a5fdea5dfefda07cf478.jpg",
     "index.html": "/DLMedeiro/Lights-Out/index.html",
-    "static/css/main.1c27afbb.chunk.css.map": "/DLMedeiro/Lights-Out/static/css/main.1c27afbb.chunk.css.map",
-    "static/js/2.1d7a373d.chunk.js.LICENSE.txt": "/DLMedeiro/Lights-Out/static/js/2.1d7a373d.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/DLMedeiro/Lights-Out/static/media/batsBackground.645bc5f6.jpg",
-    "static/media/Cell.css": "/DLMedeiro/Lights-Out/static/media/lightbulb.a5fdea5d.jpg"
+    "main.3695dd95.css.map": "/DLMedeiro/Lights-Out/static/css/main.3695dd95.css.map",
+    "main.87661185.js.map": "/DLMedeiro/Lights-Out/static/js/main.87661185.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.dece45f2.js",
-    "static/js/2.1d7a373d.chunk.js",
-    "static/css/main.1c27afbb.chunk.css",
-    "static/js/main.e473fc9e.chunk.js"
+    "static/css/main.3695dd95.css",
+    "static/js/main.87661185.js"
   ]
 }
