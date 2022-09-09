@@ -65,7 +65,7 @@ function Board({ nrows, ncols, chanceLightStartsOn }) {
             }
           }
         }
-        if (test.length < 2) {
+        if (test.length < 1) {
           return true;
         }
       });
@@ -97,6 +97,11 @@ function Board({ nrows, ncols, chanceLightStartsOn }) {
     });
   }
 
+  function restart() {
+    setWinner(false);
+    setBoard(createBoard());
+  }
+
   // if the game is won, just show a winning msg & render nothing else
 
   // make table board
@@ -120,6 +125,9 @@ function Board({ nrows, ncols, chanceLightStartsOn }) {
     return (
       <div className="winner">
         <h2>Winner</h2>
+        <button className="new" onClick={() => restart()}>
+          New Game
+        </button>
       </div>
     );
   }
