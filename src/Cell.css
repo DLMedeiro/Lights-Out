@@ -6,12 +6,14 @@
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  border: rgb(243, 158, 57) 2px solid
 }
 
 .Cell-lit {
   background-image: url("./assets/lightbulb.jpg");
   background-size: cover;
   background-position: center;
+  border: rgb(243, 158, 57) 2px solid
 }
 
 @keyframes fadeInAnimation {
