@@ -10,7 +10,7 @@
 }
 
 .App .instructions {
-  background-color: rgba(0, 0, 0, 0.76);
+  background-color: rgba(0, 0, 0, 0.75);
   padding: 10px;
   margin-top: 20px;
 }
@@ -20,5 +20,5 @@
 }
 
 .App h1 {
-  background-color: rgba(0, 0, 0, 0.774);
+  background-color: rgba(0, 0, 0, 0.75);
 }

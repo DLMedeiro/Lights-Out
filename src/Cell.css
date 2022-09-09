@@ -8,6 +8,9 @@
   animation-fill-mode: forwards;
   border: rgb(243, 158, 57) 2px solid
 }
+.Cell:hover {
+  border: rgb(243, 158, 57) 4px solid
+}
 
 .Cell-lit {
   background-image: url("./assets/lightbulb.jpg");
