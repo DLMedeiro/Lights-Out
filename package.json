@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/DLMedeiro/Lights-Out",
+  "homepage": "https://github.com/dlmedeiro/Lights-Out",
   "name": "react-lights-out-v2",
   "version": "0.1.0",
   "private": true,
@@ -7,7 +7,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
-    "react": "^16.12.0",
+    "react": "^18.2.0",
     "react-dom": "^16.12.0",
     "react-scripts": "^5.0.1"
   },
